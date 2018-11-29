@@ -2,7 +2,8 @@
 Interacting with a drone using Rainbow.
 
 This project was made for Rainbow Hackathon Brazil.
-The propose was to drive a drone by Rainbow. We used DJI Tello Drone for this.
+
+The propose was to use Rainbow to interact with a drone and to achieve this we used DJI Tello.
 ![](dji-tello.jpg?raw=true)
 
 ## Requirements
