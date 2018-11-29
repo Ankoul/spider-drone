@@ -66,7 +66,7 @@ npm start
 
 ### User command list
 | Message | Action | Command |
-|------------------ | ----- | ------ | ------ |
+|------------------ | ----- | ------ |
 | **hi spider** | checks if drone are listen any orders or only its MASTER |   |
 | **go spider** | take off the drone | takeoff |
 | **rest spider** | land the drone | land |
@@ -90,7 +90,7 @@ This command list will only be executed if your Rainbow user is defined has its 
 To be its master you must be the first one to send the message "i am your master" to it.
 
 | Message | Action | Command |
-|------------------ | ----- | ------ | ------ |
+|------------------ | ----- | ------ |
 | p | land drone | land |
 | w | go forward | forward 100 |
 | ww | go forward | forward 200 |
