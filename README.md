@@ -111,5 +111,17 @@ To be its master you must be the first one to send the message "i am your master
 | stop | stop to listen anyone but MASTER |   |
 | free | free drone to listen anyone |   |
 
+Also, any message sent from MASTER will be directly sent to drone if its not mapped. Example:
+ - as a master you can say:
+ ```bash
+ cw 45
+ ```
+ which will turn right 45 degrees.
+ If a common user sends:
+ ```bash
+ cw 45
+ ```
+ It will be ignored.
+
 To quit the program, enter ctrl-c
 
