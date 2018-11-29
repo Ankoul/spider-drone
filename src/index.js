@@ -51,7 +51,7 @@ const filterBubbleCommand = (msg) => {
         case 'go left': return 'left 100';
         case 'go right': return 'right 100';
         case 'go up': return 'up 60';
-        case 'go down': return 'down 60';
+        case 'go down': return 'down 100';
         case 'turn back': return 'cw 180';
         case 'turn right': return 'cw 90';
         case 'turn left': return 'ccw 90';
@@ -94,7 +94,7 @@ const filterCommand = (msg) => {
         case 'q': return 'ccw 90';
         case 'e': return 'cw 90';
         case 'W': return 'up 60';
-        case 'S': return 'down 10';
+        case 'S': return 'down 100';
         case 'SS': return 'down 200';
         case 'f': return 'flip f';
         case 'F': return 'flip b';
