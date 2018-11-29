@@ -1,0 +1,25 @@
+{
+  "rainbow": {
+    "host": "openrainbow.com",
+    "mode": "xmpp"
+  },
+  "credentials": {
+    "login": "your@rainbow.account.com",
+    "password": "thePassword!123"
+  },
+  "application": {
+    "appID": "YOUR_APPLICATION_ID_HERE",
+    "appSecret": "YOUR_APPLICATION_SECRET_HERE"
+  },
+  "logs": {
+    "enableConsoleLogs": true,
+    "enableFileLogs": false,
+    "file": {
+      "path": "/var/tmp/drone/",
+      "level": "debug"
+    }
+  },
+  "im": {
+    "sendReadReceipt": false
+  }
+}
