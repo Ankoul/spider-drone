@@ -19,8 +19,8 @@ The `options` parameter allows to enter your credentials and to target the Rainb
 
 ```js
 
-// Define your configuration
-let options = {
+// Define your configuration inside src/rainbowConfig.json
+{
     "rainbow": {
         "host": "sandbox",
     },
@@ -46,7 +46,7 @@ let options = {
     "im": {
         "sendReadReceipt": true
     }
-};
+}
 
 ```
 
