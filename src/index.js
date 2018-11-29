@@ -1,5 +1,5 @@
 const NodeSDK = require("rainbow-node-sdk");
-const rainbowConfig = require("./rainbow.json");
+const rainbowConfig = require("./rainbowConfig.json");
 const LOG_ID = '[IDS-DRONE-RAINBOW] - ';
 
 const PORT = 8889;
