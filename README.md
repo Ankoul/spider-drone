@@ -64,7 +64,7 @@ npm start
 
 ## Command list
 
-# User command list
+### User command list
 | Message | Action | Command |
 |------------------ | ----- | ------ | ------ |
 | **hi spider** | checks if drone are listen any orders or only its MASTER |   |
@@ -84,7 +84,7 @@ npm start
 | **360** | turn 360 degrees | ccw 360 |
 
 
-# Master command list
+### Master command list
 
 This command list will only be executed if your Rainbow user is defined has its master.
 To be its master you must be the first one to send the message "i am your master" to it.
