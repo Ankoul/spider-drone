@@ -1,7 +1,9 @@
 # Spider Drone
-Interacting with Tello using Rainbow
+Interacting with a drone using Rainbow.
 
 This project was made for Rainbow Hackathon Brazil.
+The propose was to drive a drone by Rainbow. We used DJI Tello Drone for this.
+![](dji-tello.jpg?raw=true)
 
 ## Requirements
 
