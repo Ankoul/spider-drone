@@ -22,7 +22,8 @@ The `options` parameter allows to enter your credentials and to target the Rainb
 // Define your configuration inside src/rainbowConfig.json
 {
     "rainbow": {
-        "host": "sandbox",
+        "host": "openrainbow.com",
+        "mode": "xmpp"
     },
     "credentials": {
         "login": "your@rainbow.account.com",  // To replace by your developer credendials
