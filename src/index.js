@@ -58,6 +58,23 @@ const filterBubbleCommand = (msg) => {
         case 'flip': return 'flip f';
         case 'web': return 'flip b';
         case '360': return 'ccw 360';
+        case 'vai spider': return 'takeoff';
+        case 'pousar': return 'land';
+        case 'frente': return 'forward 100';
+        case 'tras': return 'back 100';
+        case 'trás': return 'back 100';
+        case 'esquerda': return 'left 100';
+        case 'direita': return 'right 100';
+        case 'sobe': return 'up 60';
+        case 'desce': return 'down 100';
+        case 'vira para tras': return 'cw 180';
+        case 'vira para trás': return 'cw 180';
+        case 'vira para direita': return 'cw 90';
+        case 'vira para esquerda': return 'ccw 90';
+        case 'salta': return 'flip f';
+        case 'salta para frente': return 'flip f';
+        case 'salta para tras': return 'flip b';
+        case 'salta para trás': return 'flip b';
         default: return '';
     }
 };
